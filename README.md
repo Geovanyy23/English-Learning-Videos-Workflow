@@ -18,7 +18,7 @@ This folder contains only two files:
 3. **Character sheets.** One single-person full-body reference per character, generated as a 3D Pixar-style image with Creative mode on, saved to the library.
 4. **Keyframe and clip pairs.** For each beat, create and save one consistent-character keyframe using the saved sheets as references. Immediately enter that beat's video/audio prompt, set and verify its manual video length, and submit Create Video before generating the next beat's keyframe.
 5. **Batch checks.** Submit up to five beat videos one by one without waiting for each clip to finish. Their renders may overlap. Once the batch is submitted, wait for all its clips, check their status, duration and source keyframe, then start the next batch. Speech and lip-sync are generated natively from each video/audio prompt; Lipsync HD, text-to-speech, voice cloning and voice changer are not used.
-6. **Assembly and export.** Clips are added to the timeline in story order, aligned, the project is saved, and a FullHD MP4 is exported.
+6. **Assembly and export.** For each clip in story order, the agent right-clicks its Media Library tile and chooses **Add to Timeline**. It checks that the clip lands on track 1 before adding the next, then aligns once, saves the project and exports a FullHD MP4. It never drags clips, including during recovery.
 7. **Delivery.** The agent reports the finished in-app export title and output ID, a keyframe table, the prompt book, the run state and a candid QA note. It does not download the MP4 or keyframes.
 
 ## How to use it
